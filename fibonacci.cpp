@@ -14,9 +14,14 @@ int fib3(int n){
 	}
 	return a;
 }
+
+int fac(int n){
+	return n<2?1:n*fac(n-1);
+}
 int main(){
 	cout<<"The fibonacci of 10 is:"<<fib(10)<<endl;
 	cout<<fib2(10,0,1)<<endl;
 	cout<<fib3(10)<<endl;
+	cout<<fac(10);
 	return 0;
 }
