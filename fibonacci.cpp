@@ -8,7 +8,7 @@ int fib2(int n, int a, int b){
 	return n==1?b:fib2(n-1,b,a+b);
 }
 int main(){
-	cout<<fib(10)<<endl;
+	cout<<"The fibonacci of 10 is:"<<fib(10);
 	cout<<fib(10)<<endl;
 	return 0;
 }
